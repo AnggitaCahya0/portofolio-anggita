@@ -8,13 +8,11 @@ export default Image;
 
 import Tools1 from "/assets/tools/vscode.png";
 import Tools2 from "/assets/tools/reactjs.png";
-import Tools3 from "/assets/tools/nextjs.png";
 import Tools4 from "/assets/tools/tailwind.png";
 import Tools5 from "/assets/tools/bootstrap.png";
 import Tools6 from "/assets/tools/js.png";
 import Tools7 from "/assets/tools/laravel.png";
 import Tools8 from "/assets/tools/github.png";
-import Tools9 from "/assets/tools/ai.png";
 import Tools10 from "/assets/tools/canva.png";
 import Tools11 from "/assets/tools/figma.png";
 
@@ -76,7 +74,7 @@ export const listTools = [
     dad: "800",
   },
   {
-      id: 9,
+    id: 9,
     gambar: Tools7,
     nama: "Laravel",
     ket: "Framework",
@@ -96,25 +94,27 @@ export const listProyek = [
     id: 1,
     gambar: Proyek1,
     nama: "Gapura",
-    desk: "Sistem pengadaan barang dan jasa adalah sistem yang digunakan untuk mengelola proses pengadaan barang dan jasa di Universitas Pendidikan Ganesha.",
+    desk: "Sistem berbasis web untuk mengelola pengadaan barang dan jasa, dibangun dengan Laravel Blade dan fokus pada efisiensi alur kerja pengguna. Project ini dikembangkan selama program magang sebagai bagian dari tim pengembang di UPA TIK Undiksha.",
     tools: ["Laravel-12", "Bootstrap", "DataTables"],
     dad: "200",
+    slug: "gapura",
   },
   {
     id: 2,
     gambar: Proyek2,
     nama: "EIS UNDIKSHA",
-    desk: "Redesign Excecutive Information System Universitas Pendidikan Ganesha menggunakan Laravel 12 untuk meningkatkan tampilan dan interaktivitas.",
-    tools: ["Laravel-12", "Bootstrap", "DataTables"], 
+    desk: "Redesign Excecutive Information System Universitas Pendidikan Ganesha menggunakan Laravel 12 untuk meningkatkan tampilan dan interaktivitas. Project ini dikembangkan selama program magang sebagai bagian dari tim pengembang di UPA TIK Undiksha.",
+    tools: ["Laravel-12", "Bootstrap", "DataTables"],
     dad: "300",
+    slug: "EIS-UNDIKSHA",
   },
   {
     id: 3,
     gambar: Proyek3,
     nama: "Sistem Pembayaran SPP",
-    desk: "Komitpay yaitu sistem pembayaran SPP yang dirancang untuk mempermudah proses pembayaran SPP di suatu sekolah atau institusi pendidikan.",
+    desk: "Komitpay yaitu sistem pembayaran SPP yang dirancang untuk mempermudah proses pembayaran SPP di suatu sekolah atau institusi pendidikan. Project ini dikembangkan selama proses perkuliahan mata kuliah UI/UX Design.",
     tools: ["Figma"],
-    web: "https://www.figma.com/design/MSJ41wLR6kea7TT7wLJzAU/KOMITPAY?node-id=0-1&t=zPKCEEOyMSuw144n-1",
+    slug: "komitpay",
     dad: "400",
   },
 ];
